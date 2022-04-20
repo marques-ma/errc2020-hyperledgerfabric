@@ -3,7 +3,7 @@ cd /minicurso/api-1.4
 mkdir node_modules
 mkdir node_modules/pkcs11js
 mkdir node_modules/pkcs11js/build
-chown -R marco:marco ./node_modules/
+chown -R $USER:$USER ./node_modules/
 npm install -g nodemon
 npm install log4js
 npm install express
